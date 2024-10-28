@@ -19,6 +19,10 @@
 		1A7F192C2CCE683C000AB60E /* SelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F192B2CCE683C000AB60E /* SelectedView.swift */; };
 		1A7F192E2CCE696E000AB60E /* BookHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F192D2CCE696E000AB60E /* BookHomeView.swift */; };
 		1A7F19302CCE6DFF000AB60E /* MostReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F192F2CCE6DFF000AB60E /* MostReadView.swift */; };
+		1A7F19332CCF9C38000AB60E /* AnimatedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F19322CCF9C38000AB60E /* AnimatedCardView.swift */; };
+		1A7F19382CCFAF5E000AB60E /* MatchedGeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F19372CCFAF5E000AB60E /* MatchedGeometryView.swift */; };
+		1A7F193A2CCFC055000AB60E /* CardBraid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F19392CCFC055000AB60E /* CardBraid.swift */; };
+		1A7F193C2CCFD230000AB60E /* CardBraidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F193B2CCFD230000AB60E /* CardBraidModel.swift */; };
 		1AA026EB2CB07A9B00D3075E /* SwiftUIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA026EA2CB07A9B00D3075E /* SwiftUIPlaygroundApp.swift */; };
 		1AA026ED2CB07A9B00D3075E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA026EC2CB07A9B00D3075E /* ContentView.swift */; };
 		1AA026EF2CB07A9D00D3075E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA026EE2CB07A9D00D3075E /* Assets.xcassets */; };
@@ -49,6 +53,10 @@
 		1A7F192B2CCE683C000AB60E /* SelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedView.swift; sourceTree = "<group>"; };
 		1A7F192D2CCE696E000AB60E /* BookHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookHomeView.swift; sourceTree = "<group>"; };
 		1A7F192F2CCE6DFF000AB60E /* MostReadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostReadView.swift; sourceTree = "<group>"; };
+		1A7F19322CCF9C38000AB60E /* AnimatedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCardView.swift; sourceTree = "<group>"; };
+		1A7F19372CCFAF5E000AB60E /* MatchedGeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryView.swift; sourceTree = "<group>"; };
+		1A7F19392CCFC055000AB60E /* CardBraid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBraid.swift; sourceTree = "<group>"; };
+		1A7F193B2CCFD230000AB60E /* CardBraidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBraidModel.swift; sourceTree = "<group>"; };
 		1AA026E72CB07A9B00D3075E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA026EA2CB07A9B00D3075E /* SwiftUIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundApp.swift; sourceTree = "<group>"; };
 		1AA026EC2CB07A9B00D3075E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +109,24 @@
 			path = BookApp;
 			sourceTree = "<group>";
 		};
+		1A7F19312CCF9C0F000AB60E /* CardsAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				1A7F19322CCF9C38000AB60E /* AnimatedCardView.swift */,
+			);
+			path = CardsAnimations;
+			sourceTree = "<group>";
+		};
+		1A7F19362CCFAF45000AB60E /* MatchedGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				1A7F19372CCFAF5E000AB60E /* MatchedGeometryView.swift */,
+				1A7F19392CCFC055000AB60E /* CardBraid.swift */,
+				1A7F193B2CCFD230000AB60E /* CardBraidModel.swift */,
+			);
+			path = MatchedGeometry;
+			sourceTree = "<group>";
+		};
 		1AA026DE2CB07A9B00D3075E = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +146,8 @@
 		1AA026E92CB07A9B00D3075E /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				1A7F19362CCFAF45000AB60E /* MatchedGeometry */,
+				1A7F19312CCF9C0F000AB60E /* CardsAnimations */,
 				1A7F19222CCB699D000AB60E /* BookApp */,
 				1A7F191D2CC85A45000AB60E /* CardStacks */,
 				1AFF9C522CB5BB02004A26A0 /* InstagramClone */,
@@ -270,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7F19382CCFAF5E000AB60E /* MatchedGeometryView.swift in Sources */,
 				1A7F191F2CC85A87000AB60E /* StackedCardView.swift in Sources */,
 				1A13E2822CB5BD0F009610AE /* ActivityView.swift in Sources */,
 				1AA0270C2CB07ECF00D3075E /* SearchView.swift in Sources */,
@@ -281,11 +310,14 @@
 				1A7F19282CCE601B000AB60E /* BookModel.swift in Sources */,
 				1AA027042CB07E0D00D3075E /* ModifiedButtonView.swift in Sources */,
 				1A7F192A2CCE606B000AB60E /* BookDataManager.swift in Sources */,
+				1A7F19332CCF9C38000AB60E /* AnimatedCardView.swift in Sources */,
 				1AF780CA2CB5C7030033F9CD /* HighlightDataModel.swift in Sources */,
 				1A7F192C2CCE683C000AB60E /* SelectedView.swift in Sources */,
 				1AA026ED2CB07A9B00D3075E /* ContentView.swift in Sources */,
 				1AA027022CB07DE600D3075E /* LocalDataService.swift in Sources */,
+				1A7F193C2CCFD230000AB60E /* CardBraidModel.swift in Sources */,
 				1A7F19212CC85C12000AB60E /* Item.swift in Sources */,
+				1A7F193A2CCFC055000AB60E /* CardBraid.swift in Sources */,
 				1AA0270A2CB07E9600D3075E /* NowPlaying.swift in Sources */,
 				1AF780C62CB5C31B0033F9CD /* ProfilePostModel.swift in Sources */,
 				1A13E2862CB5BE68009610AE /* ProfileActionsView.swift in Sources */,
@@ -433,8 +465,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,8 +493,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
