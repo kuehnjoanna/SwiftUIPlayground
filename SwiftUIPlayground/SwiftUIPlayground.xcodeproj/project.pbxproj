@@ -10,6 +10,12 @@
 		1A13E2822CB5BD0F009610AE /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A13E2812CB5BD0F009610AE /* ActivityView.swift */; };
 		1A13E2842CB5BE38009610AE /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A13E2832CB5BE38009610AE /* UserInfoView.swift */; };
 		1A13E2862CB5BE68009610AE /* ProfileActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A13E2852CB5BE68009610AE /* ProfileActionsView.swift */; };
+		1A56D63F2CD2C39D001C3428 /* ColumnMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56D63E2CD2C39D001C3428 /* ColumnMenu.swift */; };
+		1A56D6412CD2CCEA001C3428 /* LiquidMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56D6402CD2CCEA001C3428 /* LiquidMenu.swift */; };
+		1A56D6442CD2D869001C3428 /* CustomSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56D6432CD2D869001C3428 /* CustomSteps.swift */; };
+		1A56D6462CD2DD6F001C3428 /* CustomStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56D6452CD2DD6F001C3428 /* CustomStepsView.swift */; };
+		1A56D6482CD2E3CC001C3428 /* CustomStepsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56D6472CD2E3CC001C3428 /* CustomStepsCardView.swift */; };
+		1A56D64A2CD2E401001C3428 /* CustomStepsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A56D6492CD2E401001C3428 /* CustomStepsPageView.swift */; };
 		1A651DE32CD18AE8002B4213 /* DotMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A651DE22CD18AE8002B4213 /* DotMenuView.swift */; };
 		1A7F191F2CC85A87000AB60E /* StackedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F191E2CC85A87000AB60E /* StackedCardView.swift */; };
 		1A7F19212CC85C12000AB60E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F19202CC85C12000AB60E /* Item.swift */; };
@@ -45,6 +51,12 @@
 		1A13E2812CB5BD0F009610AE /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		1A13E2832CB5BE38009610AE /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 		1A13E2852CB5BE68009610AE /* ProfileActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionsView.swift; sourceTree = "<group>"; };
+		1A56D63E2CD2C39D001C3428 /* ColumnMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnMenu.swift; sourceTree = "<group>"; };
+		1A56D6402CD2CCEA001C3428 /* LiquidMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidMenu.swift; sourceTree = "<group>"; };
+		1A56D6432CD2D869001C3428 /* CustomSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSteps.swift; sourceTree = "<group>"; };
+		1A56D6452CD2DD6F001C3428 /* CustomStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepsView.swift; sourceTree = "<group>"; };
+		1A56D6472CD2E3CC001C3428 /* CustomStepsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepsCardView.swift; sourceTree = "<group>"; };
+		1A56D6492CD2E401001C3428 /* CustomStepsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepsPageView.swift; sourceTree = "<group>"; };
 		1A651DE22CD18AE8002B4213 /* DotMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMenuView.swift; sourceTree = "<group>"; };
 		1A7F191E2CC85A87000AB60E /* StackedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedCardView.swift; sourceTree = "<group>"; };
 		1A7F19202CC85C12000AB60E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -88,10 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A56D6422CD2D838001C3428 /* CustomManual */ = {
+			isa = PBXGroup;
+			children = (
+				1A56D6432CD2D869001C3428 /* CustomSteps.swift */,
+				1A56D6452CD2DD6F001C3428 /* CustomStepsView.swift */,
+				1A56D6472CD2E3CC001C3428 /* CustomStepsCardView.swift */,
+				1A56D6492CD2E401001C3428 /* CustomStepsPageView.swift */,
+			);
+			path = CustomManual;
+			sourceTree = "<group>";
+		};
 		1A651DE12CD184B2002B4213 /* Menus */ = {
 			isa = PBXGroup;
 			children = (
 				1A651DE22CD18AE8002B4213 /* DotMenuView.swift */,
+				1A56D63E2CD2C39D001C3428 /* ColumnMenu.swift */,
+				1A56D6402CD2CCEA001C3428 /* LiquidMenu.swift */,
 			);
 			path = Menus;
 			sourceTree = "<group>";
@@ -156,6 +181,7 @@
 		1AA026E92CB07A9B00D3075E /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				1A56D6422CD2D838001C3428 /* CustomManual */,
 				1A651DE12CD184B2002B4213 /* Menus */,
 				1A7F19362CCFAF45000AB60E /* MatchedGeometry */,
 				1A7F19312CCF9C0F000AB60E /* CardsAnimations */,
@@ -317,16 +343,22 @@
 				1AA026FF2CB07DC200D3075E /* SearchEntry.swift in Sources */,
 				1A7F192E2CCE696E000AB60E /* BookHomeView.swift in Sources */,
 				1A13E2842CB5BE38009610AE /* UserInfoView.swift in Sources */,
+				1A56D6412CD2CCEA001C3428 /* LiquidMenu.swift in Sources */,
+				1A56D6482CD2E3CC001C3428 /* CustomStepsCardView.swift in Sources */,
+				1A56D64A2CD2E401001C3428 /* CustomStepsPageView.swift in Sources */,
+				1A56D6442CD2D869001C3428 /* CustomSteps.swift in Sources */,
 				1AA027062CB07E3D00D3075E /* HomeView.swift in Sources */,
 				1A7F19282CCE601B000AB60E /* BookModel.swift in Sources */,
 				1AA027042CB07E0D00D3075E /* ModifiedButtonView.swift in Sources */,
 				1A7F192A2CCE606B000AB60E /* BookDataManager.swift in Sources */,
 				1A7F19332CCF9C38000AB60E /* AnimatedCardView.swift in Sources */,
+				1A56D6462CD2DD6F001C3428 /* CustomStepsView.swift in Sources */,
 				1AF780CA2CB5C7030033F9CD /* HighlightDataModel.swift in Sources */,
 				1A7F192C2CCE683C000AB60E /* SelectedView.swift in Sources */,
 				1AA026ED2CB07A9B00D3075E /* ContentView.swift in Sources */,
 				1AA027022CB07DE600D3075E /* LocalDataService.swift in Sources */,
 				1A7F193C2CCFD230000AB60E /* CardBraidModel.swift in Sources */,
+				1A56D63F2CD2C39D001C3428 /* ColumnMenu.swift in Sources */,
 				1A7F19212CC85C12000AB60E /* Item.swift in Sources */,
 				1A7F193A2CCFC055000AB60E /* CardBraid.swift in Sources */,
 				1AA0270A2CB07E9600D3075E /* NowPlaying.swift in Sources */,
